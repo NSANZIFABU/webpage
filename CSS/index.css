@@ -75,7 +75,7 @@
   }
   
   #search-icon{
-    color:black;
+    color:#666666;
   }
   
 .body-button{
@@ -85,7 +85,7 @@
   margin: auto;
   }
   .body-button div{
-      margin-left: 10px;
+      margin-left: 20px;
 
   }
 .body-footer {
@@ -107,9 +107,9 @@
   color: blue;
   text-decoration: none;
 }
-.languages a:hover {
-  color: blue;
-  text-decoration: none;
+.languages div a:hover{
+  cursor: pointer;
+  text-decoration: underline;
 }
 .footer{
     display: flex;
@@ -142,3 +142,20 @@
 .right-footer div{
     margin-right: 10px;
 }
+.right-footer div a{
+    color: #666666;
+    text-decoration: none;
+}
+.right-footer div a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.left-footer div a{
+    color: #666666;
+    text-decoration: none;
+}
+.left-footer div a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
